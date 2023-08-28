@@ -1,0 +1,95 @@
+.listUser_ss_1_0_0 {
+    width: 86%;
+    height: 100vh;
+    padding: 95px 120px;
+    margin-left: 14%;
+}
+
+.listUser_ss_1_0_0__box {
+    width: 100%;
+    border: 1px solid #eaeaea;
+    padding: 10px 25px;
+    border-radius: 8px;
+    box-shadow: 0 1px 10px 0 #00000026;
+}
+
+.listUser_ss_1_0_0__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.listUser_ss_1_0_0__title {
+    font-size: 22px;
+    margin: 0;
+    color: #d5a657;
+}
+
+.listUser_ss_1_0_0__table { 
+        th {
+            text-align: center;
+            border-top: 0px;
+
+            &:nth-child(1) {
+                text-align: left;
+                width: 950px;
+            }
+
+            &:nth-child(2) {
+                width: 150px;
+            }
+
+            &:nth-child(3) {
+                width: 120px;
+            }
+        }
+
+        td {
+            text-align: center;
+            vertical-align: middle;
+
+            &:nth-child(1) {
+                text-align: left;
+            }
+        }
+}
+
+.listUser_ss_1_0_0__icon {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+
+    i {
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
+
+.listUser_ss_1_0_0__iconEdit {
+    color: rgb(10, 134, 10);
+}
+
+.listUser_ss_1_0_0__iconDelete {
+    color: rgb(195, 15, 15);
+}
+
+@media (max-width: 1440px) {
+    .listUser_ss_1_0_0 {
+        margin-left: 18%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .listUser_ss_1_0_0 {
+        margin-left: 0;
+        width: 100%;
+        padding: 95px 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .listUser_ss_1_0_0 {
+        padding: 95px 20px;
+    }
+}

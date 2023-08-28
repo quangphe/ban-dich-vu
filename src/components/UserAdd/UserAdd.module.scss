@@ -1,0 +1,66 @@
+.addUser_ss_1_0_0 {
+    width: 86%;
+    height: 100vh;
+    padding: 95px 120px;
+    margin-left: 14%;
+}
+
+.addUser_ss_1_0_0__box {
+    width: 100%;
+    border: 1px solid #eaeaea;
+    padding: 10px 25px;
+    border-radius: 8px;
+    box-shadow: 0 1px 10px 0 #00000026;
+}
+
+.addUser_ss_1_0_0__title {
+    font-size: 22px;
+    margin: 0;
+    color: #d5a657;
+    padding: 10px 0;
+}
+
+.addUser_ss_1_0_0__item {
+    padding: 10px 0;
+    label {
+        font-weight: 600;
+        font-size: 16px;
+        margin-bottom: 4px;
+    }
+    input[type="text"] {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 5px 10px;
+    }
+    select {
+        width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 5px 10px;
+        margin-bottom: 10px;
+    }
+}
+
+.addUser_ss_1_0_0__btn {
+    width: 100px;
+}
+
+@media (max-width: 1440px) {
+    .addUser_ss_1_0_0 {
+        margin-left: 18%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .addUser_ss_1_0_0 {
+        margin-left: 0;
+        width: 100%;
+        padding: 95px 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .addUser_ss_1_0_0 {
+        padding: 95px 20px;
+    }
+}
