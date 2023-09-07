@@ -22,10 +22,10 @@ function Header() {
                 </div>
                 <div className={headerUser__hollow}></div>
                 <div className={headerUser__noti}>
-                    <img width="30" height="30" src={`${process.env.PUBLIC_URL}/images/icon-bell.png`} alt="" />
+                    {/* <img width="30" height="30" src={`${process.env.PUBLIC_URL}/images/icon-bell.png`} alt="" /> */}
                 </div>
                 <div className={headerUser__boxUser}>
-                    <img className="iconUser" width="30" height="30" src={`${process.env.PUBLIC_URL}/images/user.png`} alt="" />
+                    <img className="iconUser" width="20" height="20" src={`${process.env.PUBLIC_URL}/images/user.png`} alt="" />
                     <div className="headerUser__user">
                         Nguyen Hoang Anh
                     </div>
